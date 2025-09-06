@@ -17,8 +17,8 @@ class Config(object):
     UPDATE_CHAT = os.getenv("waifussupports")
     BOT_USERNAME = os.getenv("Ejejjeejjeierbot")
     CHARA_CHANNEL_ID = int(os.getenv("CHARA_CHANNEL_ID"))
-    api_id = int(os.getenv("24411134"))
-    api_hash = os.getenv("da78963da6eaaf521133e00628434271")
+    api_id = int(os.getenv("API_ID"))
+    api_hash = os.getenv("API_HASH")
 
 
 class Production(Config):
