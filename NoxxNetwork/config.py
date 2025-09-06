@@ -16,7 +16,7 @@ class Config(object):
     SUPPORT_CHAT = os.getenv("waifussupports")
     UPDATE_CHAT = os.getenv("waifussupports")
     BOT_USERNAME = os.getenv("Ejejjeejjeierbot")
-    CHARA_CHANNEL_ID = int(os.getenv("-1002943967320"))
+    CHARA_CHANNEL_ID = int(os.getenv("CHARA_CHANNEL_ID"))
     api_id = int(os.getenv("24411134"))
     api_hash = os.getenv("da78963da6eaaf521133e00628434271")
 
