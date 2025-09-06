@@ -9,16 +9,16 @@ class Config(object):
 
     OWNER_ID = os.getenv("7850114307")
     sudo_users = os.getenv("SUDO_USERS").split(",")  # Convert CSV to list
-    GROUP_ID = int(os.getenv("GROUP_ID"))
+    GROUP_ID = int(os.getenv("-1002918236314"))
     TOKEN = os.getenv("8356850655:AAFgnKPlT6HECSYTaoAFSXRtTCnG4-YAg0A")
     mongo_url = os.getenv("mongodb+srv://sk5400552:shjjkytdcghhudd@cluster0g.kbllv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0g")
     PHOTO_URL = os.getenv("PHOTO_URL").split(",")  # Convert CSV to list
     SUPPORT_CHAT = os.getenv("waifussupports")
     UPDATE_CHAT = os.getenv("waifussupports")
     BOT_USERNAME = os.getenv("Ejejjeejjeierbot")
-    CHARA_CHANNEL_ID = int(os.getenv("CHARA_CHANNEL_ID"))
-    api_id = int(os.getenv("API_ID"))
-    api_hash = os.getenv("API_HASH")
+    CHARA_CHANNEL_ID = int(os.getenv("-1002896662972"))
+    api_id = int(os.getenv("24411134"))
+    api_hash = os.getenv("da78963da6eaaf521133e00628434271")
 
 
 class Production(Config):
